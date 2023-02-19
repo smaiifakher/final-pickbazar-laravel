@@ -35,7 +35,7 @@ while kill -0 $PID 2> /dev/null; do
 done
 echo  "]"
 
-echo "Installing marvel dependncies..."
+echo "Installing marvel dependencies..."
 ./vendor/bin/sail artisan marvel:install
 
 FILE=public/storage
